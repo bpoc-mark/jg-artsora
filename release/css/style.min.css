@@ -202,6 +202,9 @@ template{display:none}
 .p-addons .btnArea{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:0 20px}
 .p-addons .btnArea .btn{width:100%;text-align:center;font-size:.9375rem}
 .p-addons .btnArea .btn i{margin-left:5px}
+.slick-next,.slick-prev{font-size:0;line-height:0;position:absolute;z-index:500;top:0 !important;right:20px !important;height:0 !important;display:block;width:10% !important;height:30px !important;padding:0;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);cursor:pointer;border:0;outline:0;background:0}
+.slick-prev{background-image:url("../image/sect_1/arrow_left.png") !important;background-position:top left;background-repeat:no-repeat !important;background-size:contain;right:-20px !important}
+.slick-next{background-image:url("../image/sect_1/arrow_right.png") !important;background-position:top right;background-repeat:no-repeat !important;background-size:contain;right:-60px !important}
 .p-shake{-webkit-animation:shake 1.5s infinite ease;animation:shake 1.5s infinite ease}
 .p-shake__torigin{-webkit-transform-origin:130px 15px;transform-origin:130px 15px}
 .p-walk{-webkit-animation:walk 10s both;animation:walk 10s both}
@@ -538,7 +541,7 @@ template{display:none}
 .sect_1__wrapper .l-wrap{padding-left:0;padding-right:0;padding-top:95px}
 .sect_1__wrapper .title{font-family:"cross-platform-yu-gothic";font-weight:700;font-size:1.5rem}
 .sect_1__wrapper .sub{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;font-size:1.125rem}
-.sect_1__wrapper .sched_cont{display:-webkit-box;display:-ms-flexbox;display:flex;text-align:left;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:50px 0 95px 0}
+.sect_1__wrapper .sched_cont{display:-webkit-box;display:-ms-flexbox;display:flex;text-align:left;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:50px 0 95px 0;position:relative}
 .sect_1__wrapper .sched_cont__item{width:calc(100% / 330px)}
 .sect_1__wrapper .sched_cont__item .desc{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;padding:20px 0 0 0;font-size:1.125rem}
 .sect_1__wrapper .sched_cont__item .sub_desc{font-family:noto-sans-cjk-jp,sans-serif;font-weight:600;padding:15px 0 0 0;font-size:1rem}
