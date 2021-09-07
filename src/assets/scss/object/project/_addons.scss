@@ -102,13 +102,12 @@
 
 .slick-next,
 .slick-prev {
-	// background-color: #fff !important;
 	font-size: 0;
 	line-height: 0;
 	position: absolute;
 	z-index: 500;
-	top: 0 !important;
-	right: 20px !important;
+	top: -30px;
+	right: 0;
 	height: 0 !important;
 	display: block;
 	width: 10% !important;
@@ -121,24 +120,36 @@
 	border: none;
 	outline: 0;
 	background: 0 0;
+
+	@include is-sp {
+		bottom: 10px !important;
+		top: 95% !important;
+	}
 }
 
 .slick-prev {
-	// background-color: #fff !important;
 	background-image: url("../image/sect_1/arrow_left.png") !important;
 	background-position: top left;
 	background-repeat: no-repeat !important;
 	background-size: contain;
-	right: -20px !important;
+	right: 15px !important;
+
+	@include is-sp {
+		right: 0;
+		left: 15px;
+	}
 }
 
 .slick-next {
-	// background-color: #fff !important;
 	background-image: url("../image/sect_1/arrow_right.png") !important;
 	background-position: top right;
 	background-repeat: no-repeat !important;
 	background-size: contain;
-	right: -60px !important;
+	right: 30px !important;
+
+	@include is-sp {
+		right: 15px !important;
+	}
 }
 
 // .c-card_boxes_sp.slider.slick-initialized.slick-slider {
