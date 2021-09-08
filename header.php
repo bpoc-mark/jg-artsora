@@ -43,7 +43,10 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.png" alt="">
                 </div>
                 <div class="l-wrap">
-                    <p class="scroll">SCROLL</p>
+                    <div class="left_scrl">
+                        <p class="scroll">SCROLL</p>
+                        <div class="line"></div>
+                    </div>
                     <div class="ttl_cont">
                         <div class="ttl_cont__title ten-mincho">
                             暮らしが住まいを創る。
