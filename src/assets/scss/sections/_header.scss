@@ -10,6 +10,18 @@
 			padding: 35px 0 0 40px;
 		}
 
+		.scroll {
+			font-family: noto-sans-cjk-jp, sans-serif;
+			font-weight: 700;
+			color: #fff;
+			writing-mode: vertical-rl;
+			letter-spacing: 0.2rem;
+			position: absolute;
+			top: 50%;
+			max-width: 1090px;
+			transform: translate(-50%, -50%);
+		}
+
 		.ttl_cont {
 			text-align: center;
 			transform: translate(-50%, -50%);

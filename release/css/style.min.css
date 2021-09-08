@@ -541,6 +541,7 @@ template{display:none}
 .A1明朝{font-family:"A1明朝"}
 .page__top{height:800px;position:relative}
 .page__top--logo{padding:35px 0 0 40px}
+.page__top .scroll{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;color:#fff;-webkit-writing-mode:vertical-rl;-ms-writing-mode:tb-rl;writing-mode:vertical-rl;letter-spacing:.2rem;position:absolute;top:50%;max-width:1090px;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .page__top .ttl_cont{text-align:center;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);top:50%;left:50%;position:absolute}
 .page__top .ttl_cont__title{color:#fff;font-size:2.875rem}
 .page__top .ttl_cont__sub{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;color:#fff;letter-spacing:.2rem;font-size:1.375rem}
