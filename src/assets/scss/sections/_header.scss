@@ -1,0 +1,87 @@
+.page {
+	&__header {
+	}
+
+	&__top {
+		height: 800px;
+		position: relative;
+
+		&--logo {
+			padding: 35px 0 0 40px;
+
+			@include is-sp {
+				padding: 0;
+				width: 100%;
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%, 50%);
+				top: 15%;
+				text-align: center;
+			}
+
+			img {
+				@include is-sp {
+					width: 45%;
+				}
+			}
+		}
+
+		.left_scrl {
+			@include is-sp {
+				display: none;
+			}
+
+			.scroll {
+				font-family: noto-sans-cjk-jp, sans-serif;
+				font-weight: 700;
+				color: #fff;
+				writing-mode: vertical-rl;
+				letter-spacing: 0.2rem;
+				position: absolute;
+				top: 50%;
+				max-width: 1090px;
+				transform: translate(-50%, -50%);
+			}
+
+			.line {
+				border-left: 2px solid #fff;
+				display: block;
+				height: 80px;
+				position: absolute;
+				top: 57%;
+			}
+		}
+
+		.ttl_cont {
+			text-align: center;
+			transform: translate(-50%, -50%);
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			width: 100%;
+
+			&__title {
+				color: #fff;
+				font-family: ten-mincho, serif;
+				@include font-line(46);
+
+				@include is-sp {
+					@include font-line(26);
+				}
+			}
+
+			&__sub {
+				font-family: noto-sans-cjk-jp, sans-serif;
+				font-weight: 700;
+				color: #fff;
+				letter-spacing: 0.2rem;
+
+				@include font-line(22);
+
+				@include is-sp {
+					@include font-line(19);
+				}
+			}
+		}
+	}
+}
