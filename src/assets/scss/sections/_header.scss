@@ -8,6 +8,22 @@
 
 		&--logo {
 			padding: 35px 0 0 40px;
+
+			@include is-sp {
+				padding: 0;
+				width: 100%;
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%, 50%);
+				top: 15%;
+				text-align: center;
+			}
+
+			img {
+				@include is-sp {
+					width: 45%;
+				}
+			}
 		}
 
 		.left_scrl {
@@ -42,10 +58,16 @@
 			top: 50%;
 			left: 50%;
 			position: absolute;
+			width: 100%;
 
 			&__title {
 				color: #fff;
+				font-family: ten-mincho, serif;
 				@include font-line(46);
+
+				@include is-sp {
+					@include font-line(26);
+				}
 			}
 
 			&__sub {
@@ -55,6 +77,10 @@
 				letter-spacing: 0.2rem;
 
 				@include font-line(22);
+
+				@include is-sp {
+					@include font-line(19);
+				}
 			}
 		}
 	}
