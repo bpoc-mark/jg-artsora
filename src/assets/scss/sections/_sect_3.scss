@@ -46,7 +46,7 @@
             }
 
             li {
-                // width: calc(100% / 3);
+                width: calc(100% / 3);
 
                 @include is-max(750px) {
                     width: 100%;

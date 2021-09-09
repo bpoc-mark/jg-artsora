@@ -545,6 +545,7 @@ template{display:none}
 .sect_3 .l-wrap .sect_3__header .title{font-family:"cross-platform-yu-gothic";font-weight:500;font-size:1.5rem}
 .sect_3 .l-wrap .sect_3__header .text{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;font-size:1.125rem;letter-spacing:1px}
 .sect_3 .l-wrap ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:40px;padding-bottom:125px}
+.sect_3 .l-wrap ul li{width:calc(100% / 3)}
 .sect_3 .l-wrap ul li .text{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;font-size:1.125rem;padding-top:20px}
 .sect_3 .l-wrap .foot{position:relative;text-align:center}
 .sect_3 .l-wrap .foot .text{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;font-size:1rem}
