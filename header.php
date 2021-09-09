@@ -39,8 +39,23 @@
             }
             ?>
             <div class="page__top isHome" style="background: url('<?php echo $imgurl; ?>') !important; background-size: cover !important;background-position: center center;background-repeat: no-repeat;">
+                <div class="page__top--logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.png" alt="">
+                </div>
+                <div class="l-wrap">
+                    <div class="left_scrl">
+                        <p class="scroll">SCROLL</p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="ttl_cont">
+                        <div class="ttl_cont__title ten-mincho">
+                            暮らしが住まいを創る。
+                        </div>
+                        <div class="ttl_cont__sub">
+                            Life creates a house
+                        </div>
+                    </div>
+                </div>
             </div>
-            <header class="nav__header" id="nav-header">
-            </header>
         </div>
         <div class="page__content">
