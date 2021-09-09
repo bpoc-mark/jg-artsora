@@ -1,4 +1,9 @@
 .sect_2 {
+    padding-top: 150px;
+
+    @include is-sp {
+        padding-top: 100px;
+    }
 
     .l-wrap {
         width: 100%;
