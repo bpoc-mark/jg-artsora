@@ -88,9 +88,7 @@ $('.sect_3__slider').slick({
       infinite: true,
       autoplay: true,
       arrows: true,
-      swipe: true,
-      prevArrow: "<img class='slick-prev slick-arrow' src='//localhost:3000/wp-content/themes/jg-artsora/release/image/sect_3/left_arrow.png'>",
-      nextArrow: "<img class='a-right control-c next slick-next' src='//localhost:3000/wp-content/themes/jg-artsora/release/image/sect_3/right_arrow.png'>"
+      swipe: true
     }
   } // You can unslick at a given breakpoint now by adding:
   // settings: "unslick"

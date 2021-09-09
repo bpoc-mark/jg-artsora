@@ -202,10 +202,9 @@ template{display:none}
 .p-addons .btnArea{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:0 20px}
 .p-addons .btnArea .btn{width:100%;text-align:center;font-size:.9375rem}
 .p-addons .btnArea .btn i{margin-left:5px}
-.slick-next:before,.slick-prev:before{font-family:"slick",sans-serif !important;font-size:35px !important;line-height:1 !important;opacity:1 !important;color:#c60000 !important;-webkit-font-smoothing:antialiased !important}
-.slick-next,.slick-prev{font-size:0;line-height:0;position:absolute;z-index:500;top:86% !important;height:0 !important;display:block;width:10% !important;height:30px !important;padding:0;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);cursor:pointer;border:0;outline:0;background:0}
-.slick-prev{background-image:url("../image/sect_8/prev.png") !important;background-position:top left;background-repeat:no-repeat;background-size:contain;left:-20px !important}
-.slick-next{background-image:url("../image/sect_8/next.png") !important;background-position:top right;background-repeat:no-repeat;background-size:contain;right:-19px !important}
+.slick-next,.slick-prev{font-size:0;line-height:0;position:absolute;z-index:500;top:-30px;right:0;height:0 !important;display:block;width:10% !important;height:30px !important;padding:0;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);cursor:pointer;border:0;outline:0;background:0}
+.slick-prev{background-image:url("../image/sect_3/left_arrow.png") !important;background-position:top left;background-repeat:no-repeat !important;background-size:contain}
+.slick-next{background-image:url("../image/sect_3/right_arrow.png") !important;background-position:top right;background-repeat:no-repeat !important;background-size:contain}
 .slick-slider{display:none}
 .c-card_boxes_sp.slider.slick-initialized.slick-slider{padding-bottom:20px}
 .p-shake{-webkit-animation:shake 1.5s infinite ease;animation:shake 1.5s infinite ease}
@@ -701,6 +700,8 @@ template{display:none}
 .c-table01__overviewTbl__datajapan{font-size:.8125rem}
 .p-addons__frame{text-align:center}
 .p-addons__frame .mascot{width:50%;max-width:50%}
+.slick-next,.slick-prev{bottom:10px !important;top:95% !important}
+.slick-prev{left:0 !important}
 .p-popup{-webkit-transform-origin:200px 100px;transform-origin:200px 100px}
 .p-carousel__frames img{width:50px;margin-right:50px}
 .p-error__left,.p-error__right{width:100%;text-align:center;margin-bottom:20px}
