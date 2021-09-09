@@ -57,5 +57,7 @@
                     </div>
                 </div>
             </div>
+            <header class="nav__header" id="nav-header">
+            </header>
         </div>
         <div class="page__content">
