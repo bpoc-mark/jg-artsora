@@ -28,10 +28,7 @@
                 <img src="<?php echo get_template_directory_uri() . '/release/image/sect_3/img2.png' ?>" alt="">
                 <p class="text">薪ストーブと回遊できる土間のある家</p>
             </li>
-            <li>
-                <img src="<?php echo get_template_directory_uri() . '/release/image/sect_3/img3.png' ?>" alt="">
-                <p class="text">タイトルタイトルタイトルタイトル</p>
-            </li>
+            
         </ul>
 
         <div class="foot">

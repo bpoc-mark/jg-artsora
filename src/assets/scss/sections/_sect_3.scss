@@ -15,7 +15,7 @@
             padding-top: 110px;
             padding-bottom: 80px;
 
-            @include is-max(960px) {
+            @include is-max(750px) {
                 padding-top: 60px;
                 padding-bottom: 50px;
             }
@@ -41,14 +41,14 @@
             gap: 40px;
             padding-bottom: 125px;
 
-            @include is-max(960px) {
+            @include is-max(750px) {
                flex-wrap: wrap;
             }
 
             li {
-                width: calc(100% / 3);
+                // width: calc(100% / 3);
 
-                @include is-max(960px) {
+                @include is-max(750px) {
                     width: 100%;
 
                     img {
@@ -71,7 +71,7 @@
             position: relative;
             text-align: center;
 
-            @include is-max(960px) {
+            @include is-max(750px) {
                 display: none;
             }
 
