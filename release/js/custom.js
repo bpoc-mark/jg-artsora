@@ -64,7 +64,10 @@ $(function () {
 });
 $('.sect_3__slider').slick({
   dots: false,
-  infinite: true,
+  infinite: false,
+  autoplay: false,
+  swipe: false,
+  arrows: false,
   speed: 300,
   slidesToShow: 3,
   slidesToScroll: 3,
@@ -81,7 +84,13 @@ $('.sect_3__slider').slick({
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-      dots: false
+      dots: false,
+      infinite: true,
+      autoplay: true,
+      arrows: true,
+      swipe: true,
+      prevArrow: "<img class='slick-prev slick-arrow' src='//localhost:3000/wp-content/themes/jg-artsora/release/image/sect_3/left_arrow.png'>",
+      nextArrow: "<img class='a-right control-c next slick-next' src='//localhost:3000/wp-content/themes/jg-artsora/release/image/sect_3/right_arrow.png'>"
     }
   } // You can unslick at a given breakpoint now by adding:
   // settings: "unslick"
