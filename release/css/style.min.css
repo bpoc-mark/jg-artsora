@@ -1066,7 +1066,7 @@ template{display:none}
 .page__top .left_scrl{display:none}
 .page__top .ttl_cont__title{font-size:1.625rem}
 .page__top .ttl_cont__sub{font-size:1.1875rem}
-.sect_1__wrapper{background-color:#f0f5fa}
+.sect_1__wrapper{background-color:#f0f5fa;padding:0 0 70px 0}
 .sect_1__wrapper .l-wrap{padding-left:25px;padding-right:25px}
 .sect_1__wrapper .sched_cont__item img{width:100%}
 .sect_2{padding-top:100px}
