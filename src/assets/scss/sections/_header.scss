@@ -44,11 +44,34 @@
 			}
 
 			.line {
-				border-left: 2px solid #fff;
-				display: block;
-				height: 80px;
 				position: absolute;
 				top: 57%;
+				z-index: 3;
+				bottom: 0;
+				width: 2px;
+				height: 80px;
+				background-color: rgba(255, 255, 255, 0.2);
+				display: block;
+
+				&::before {
+					content: "";
+					display: block;
+					position: absolute;
+					z-index: 4;
+					top: 0;
+					left: 0;
+					right: 0;
+					width: 2px;
+					height: 30px;
+					background-color: #fff;
+					animation: fullheight 3s infinite;
+				}
+
+				@keyframes fullheight {
+					100% {
+						top: 80px;
+					}
+				}
 			}
 		}
 
