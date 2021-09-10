@@ -12,11 +12,11 @@
 // add_action('wp_enqueue_scripts', 'enqueue_styles');
 
 // Remove Default Wordpress Jquery
-function remove_jquery_enqueue()
-{
-	wp_deregister_script('jquery');
-}
-add_action('wp_enqueue_scripts', 'remove_jquery_enqueue');
+// function remove_jquery_enqueue()
+// {
+// 	wp_deregister_script('jquery');
+// }
+// add_action('wp_enqueue_scripts', 'remove_jquery_enqueue');
 
 // Enqueu the Script
 // function enqueue_scripts(){
