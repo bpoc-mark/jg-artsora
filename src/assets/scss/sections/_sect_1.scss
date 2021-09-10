@@ -13,12 +13,21 @@
 			top: 0;
 			left: 0;
 			z-index: -1;
+
+			@include is-max(1024px) {
+				top: 4%;
+			}
 		}
 
 		.l-wrap {
 			padding-left: 0px;
 			padding-right: 0px;
 			padding-top: 95px;
+
+			@include is-max(1024px) {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
 
 			@include is-sp {
 				padding-left: 25px;
@@ -47,8 +56,20 @@
 			padding: 50px 0 95px 0;
 			position: relative;
 
+			@include is-max(768px) {
+				padding: 50px 0 0 0;
+			}
+
+			@include is-sp {
+				padding: 50px 0 35px 0;
+			}
+
 			&__item {
 				width: calc(100% / 3);
+
+				@include is-max(769px) {
+					width: calc(100% / 2);
+				}
 
 				img {
 					@include is-sp {
