@@ -52,6 +52,7 @@
 				input[type="text"],
 				input[type="email"],
 				input[type="tel"],
+				select,
 				textarea {
 					background-color: #fff;
 					color: #000;
@@ -60,7 +61,7 @@
 					border: none;
 					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 700;
-					@include font-line(18);
+					@include font-line(14);
 					color: #000;
 
 					&::placeholder {
