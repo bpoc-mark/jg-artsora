@@ -30,10 +30,10 @@
             </div>
         </div>
         <div class="img_gallery">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_1.png" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_2.png" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_3.png" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_4.png" alt="">
+            <img data-aos="fade-left" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_1.png" alt="">
+            <img data-aos="fade-left" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_2.png" alt="">
+            <img data-aos="fade-left" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_3.png" alt="">
+            <img data-aos="fade-left" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_4.png" alt="">
         </div>
         <!-- ROW 2 -->
         <div class="l-wrap">
@@ -63,10 +63,10 @@
             </div>
         </div>
         <div class="img_gallery">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_5.png" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_6.png" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_7.png" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_8.png" alt="">
+            <img data-aos="fade-left" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_5.png" alt="">
+            <img data-aos="fade-left" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_6.png" alt="">
+            <img data-aos="fade-left" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_7.png" alt="">
+            <img data-aos="fade-left" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_8.png" alt="">
         </div>
     </div>
 </section>
