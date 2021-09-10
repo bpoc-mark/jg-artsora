@@ -97,8 +97,8 @@ $('.slider').slick({
 
   $('.sect_3__slider').slick({
     dots: false,
-    infinite: false,
-    autoplay: false,
+    infinite: true,
+    autoplay: true,
     swipe: false,
     arrows: false,
     speed: 300,

@@ -37,7 +37,7 @@
             <p class="text">
                 MORE
             </p>
-            <img src="<?php echo get_template_directory_uri() . '/release/image/sect_3/line.png' ?>" alt="">
+            <div class="line"></div>
         </div>
 
     </div>
