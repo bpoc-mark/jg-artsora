@@ -107,13 +107,17 @@
 			}
 		}
 
-		/* slide */
+		/* slide PC*/
 
 		.slide {
 			position: relative;
 			margin: 0;
 			padding: 0;
 			height: 800px;
+
+			@include is-sp {
+				display: none;
+			}
 
 			.item {
 				position: relative;
@@ -123,6 +127,10 @@
 					content: "";
 					display: block;
 					padding: 39%;
+
+					@include is-sp {
+						padding: 0;
+					}
 				}
 
 				img {
@@ -145,6 +153,66 @@
 		.slide > .slick-list,
 		.slide > .slick-list > .slick-track,
 		.slide > .slick-list > .slick-track > .slick-slide > div {
+			position: relative;
+			height: 100%;
+		}
+		.slide-animation {
+			animation: fadezoom 8s 0s forwards;
+		}
+		@keyframes fadezoom {
+			0% {
+				transform: scale(1);
+			}
+			100% {
+				transform: scale(1.2);
+			}
+		}
+
+		// SLIDE SP
+		.slide-sp {
+			position: relative;
+			margin: 0;
+			padding: 0;
+			height: 800px;
+
+			@include is-sp {
+				display: block;
+			}
+
+			.item {
+				position: relative;
+				height: 100%;
+
+				&::before {
+					content: "";
+					display: block;
+					padding: 39%;
+
+					@include is-sp {
+						padding: 0;
+					}
+				}
+
+				img {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					right: 0;
+					left: 0;
+					margin: auto;
+					width: 100%;
+				}
+			}
+		}
+
+		.slide-sp .item .image {
+			position: relative;
+			overflow: hidden;
+		}
+
+		.slide-sp > .slick-list,
+		.slide-sp > .slick-list > .slick-track,
+		.slide-sp > .slick-list > .slick-track > .slick-slide > div {
 			position: relative;
 			height: 100%;
 		}

@@ -555,6 +555,13 @@ template{display:none}
 .page__top .slide .item .image{position:relative;overflow:hidden}
 .page__top .slide>.slick-list,.page__top .slide>.slick-list>.slick-track,.page__top .slide>.slick-list>.slick-track>.slick-slide>div{position:relative;height:100%}
 .page__top .slide-animation{-webkit-animation:fadezoom 8s 0s forwards;animation:fadezoom 8s 0s forwards}
+.page__top .slide-sp{position:relative;margin:0;padding:0;height:800px}
+.page__top .slide-sp .item{position:relative;height:100%}
+.page__top .slide-sp .item::before{content:"";display:block;padding:39%}
+.page__top .slide-sp .item img{position:absolute;top:0;bottom:0;right:0;left:0;margin:auto;width:100%}
+.page__top .slide-sp .item .image{position:relative;overflow:hidden}
+.page__top .slide-sp>.slick-list,.page__top .slide-sp>.slick-list>.slick-track,.page__top .slide-sp>.slick-list>.slick-track>.slick-slide>div{position:relative;height:100%}
+.page__top .slide-animation{-webkit-animation:fadezoom 8s 0s forwards;animation:fadezoom 8s 0s forwards}
 .sect_1__wrapper{text-align:center;position:relative}
 .sect_1__wrapper .bg_grey{position:absolute;top:0;left:0;z-index:-1}
 .sect_1__wrapper .l-wrap{padding-left:0;padding-right:0;padding-top:95px}
@@ -1074,6 +1081,10 @@ template{display:none}
 .page__top .left_scrl{display:none}
 .page__top .ttl_cont__title{font-size:1.625rem}
 .page__top .ttl_cont__sub{font-size:1.1875rem}
+.page__top .slide{display:none}
+.page__top .slide .item::before{padding:0}
+.page__top .slide-sp{display:block}
+.page__top .slide-sp .item::before{padding:0}
 .sect_1__wrapper{background-color:#f0f5fa;padding:0 0 70px 0}
 .sect_1__wrapper .l-wrap{padding-left:25px;padding-right:25px}
 .sect_1__wrapper .sched_cont__item img{width:100%}
@@ -1202,6 +1213,8 @@ to{-webkit-transform:scale(1);transform:scale(1)}
 }@-webkit-keyframes fullheight{100%{top:80px}
 }@keyframes fullheight{100%{top:80px}
 }@-webkit-keyframes fadezoom{0%{-webkit-transform:scale(1);transform:scale(1)}
+100%{-webkit-transform:scale(1.2);transform:scale(1.2)}
+}@keyframes fadezoom{0%{-webkit-transform:scale(1);transform:scale(1)}
 100%{-webkit-transform:scale(1.2);transform:scale(1.2)}
 }@keyframes fadezoom{0%{-webkit-transform:scale(1);transform:scale(1)}
 100%{-webkit-transform:scale(1.2);transform:scale(1.2)}

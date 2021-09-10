@@ -48,6 +48,22 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/4.jpg" />
                     </li>
                 </ul>
+
+                <ul class="slide-sp">
+                    <li class="item">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/1_sp.jpeg" />
+                    </li>
+                    <li class="item">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/2_sp.jpeg" />
+                    </li>
+                    <li class="item">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/3_sp.jpeg" />
+                    </li>
+                    <li class="item">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/4_sp.jpg" />
+                    </li>
+                </ul>
+
                 <div class="page__top--logo">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.png" alt="">
                 </div>
