@@ -70,7 +70,9 @@
                 <div class="l-wrap">
                     <div class="left_scrl">
                         <p class="scroll">SCROLL</p>
-                        <div class="line"></div>
+                        <div class="tm-scroll">
+                            <span></span>
+                        </div>
                     </div>
                     <div class="ttl_cont">
                         <div class="ttl_cont__title ten-mincho">
