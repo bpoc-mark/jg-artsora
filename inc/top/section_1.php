@@ -6,26 +6,30 @@
             <p class="sub">EVENT</p>
 
             <div class="sched_cont slider">
-                <div class="sched_cont__item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/sched_img_1.png" alt="">
-                    <p class="desc">【完全予約制】OPEN HOUSE<br>～吹き抜けのある暮らし～</p>
-                    <p class="sub_desc">2021年00月00日(土)・00日(日)<br>10:00～16:00</p>
-                </div>
-                <div class="sched_cont__item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/sched_img_1.png" alt="">
-                    <p class="desc">【完全予約制】OPEN HOUSE<br>～吹き抜けのある暮らし～</p>
-                    <p class="sub_desc">2021年00月00日(土)・00日(日)<br>10:00～16:00</p>
-                </div>
-                <div class="sched_cont__item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/sched_img_1.png" alt="">
-                    <p class="desc">【完全予約制】OPEN HOUSE<br>～吹き抜けのある暮らし～</p>
-                    <p class="sub_desc">2021年00月00日(土)・00日(日)<br>10:00～16:00</p>
-                </div>
-                <div class="sched_cont__item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/sched_img_1.png" alt="">
-                    <p class="desc">【完全予約制】OPEN HOUSE<br>～吹き抜けのある暮らし～</p>
-                    <p class="sub_desc">2021年00月00日(土)・00日(日)<br>10:00～16:00</p>
-                </div>
+                <?php
+                $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
+
+                $args = array(
+                    'post_type' => 'post',
+                    'post_status' => 'publish',
+                    'posts_per_page' => 6,
+                    'category_name' => 'EVENT',
+                    'paged' => $paged,
+                );
+
+                $the_query = new WP_Query($args);
+                ?>
+
+                <?php if ($the_query->have_posts()) : ?>
+
+                    <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+                        <div class="sched_cont__item">
+                            <?php the_post_thumbnail(); ?>
+                            <p class="desc"><?php echo the_title(); ?></p>
+                            <?php echo the_content(); ?>
+                        </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
             </div>
         </div>
     </div>

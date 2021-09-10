@@ -23,6 +23,8 @@ $color-danger: #dc3545;
 }
 
 body {
+	-ms-overflow-style: none;
+	overflow-x: hidden;
 	background-color: #fff;
 	color: $color-text01;
 	font-family: $font-family-main;
