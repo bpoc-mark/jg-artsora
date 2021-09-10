@@ -1,13 +1,13 @@
 .page {
-	&__header {
-	}
-
 	&__top {
 		height: 800px;
 		position: relative;
 
 		&--logo {
 			padding: 35px 0 0 40px;
+			position: absolute;
+			z-index: 100;
+			top: 0;
 
 			@include is-sp {
 				padding: 0;
@@ -64,7 +64,7 @@
 					width: 2px;
 					height: 30px;
 					background-color: #fff;
-					animation: fullheight 3s infinite;
+					animation: fullheight 2s infinite;
 				}
 
 				@keyframes fullheight {
@@ -104,6 +104,59 @@
 				@include is-sp {
 					@include font-line(19);
 				}
+			}
+		}
+
+		/* slide */
+
+		.slide {
+			position: relative;
+			margin: 0;
+			padding: 0;
+			height: 800px;
+
+			.item {
+				position: relative;
+				height: 100%;
+
+				&::before {
+					content: "";
+					display: block;
+					padding: 39%;
+				}
+
+				img {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					right: 0;
+					left: 0;
+					margin: auto;
+					width: 100%;
+				}
+			}
+		}
+
+		.slide .item .image {
+			position: relative;
+			overflow: hidden;
+		}
+
+		.slide > .slick-list,
+		.slide > .slick-list > .slick-track,
+		.slide > .slick-list > .slick-track > .slick-slide > div {
+			position: relative;
+			height: 100%;
+		}
+		.slide-animation {
+			animation: fadezoom 8s 0s forwards;
+		}
+		@keyframes fadezoom {
+			0% {
+				transform: scale(1);
+			}
+			100% {
+				transform: scale(1.2);
 			}
 		}
 	}
