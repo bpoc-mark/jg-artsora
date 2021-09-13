@@ -551,7 +551,7 @@ template{display:none}
 .page__top .slide{position:relative;margin:0;padding:0;height:800px}
 .page__top .slide .item{position:relative;height:100%}
 .page__top .slide .item::before{content:"";display:block;padding:39%}
-.page__top .slide .item img{position:absolute;top:0;bottom:0;right:0;left:0;width:100%}
+.page__top .slide .item img{position:absolute;top:0;bottom:0;right:0;left:0;width:100%;-o-object-fit:fill;object-fit:fill}
 .page__top .slide .item .image{position:relative;overflow:hidden}
 .page__top .slide>.slick-list,.page__top .slide>.slick-list>.slick-track,.page__top .slide>.slick-list>.slick-track>.slick-slide>div{position:relative;height:100%}
 .page__top .slide-animation{-webkit-animation:fadezoom 8s 0s forwards;animation:fadezoom 8s 0s forwards}
@@ -1135,7 +1135,8 @@ template{display:none}
 .sect_5 .content_1 .exhibit_1__txt .ttl_2 br{display:block}
 .sect_5 .content_2 .exhibit_2__txt .ttl_2{padding:40px 0 30px 0}
 .sect_5 .img_gallery img{width:100%}
-.sect_6__wrapper .l-wrap .form_container .btn_container{margin-top:20px}
+.sect_6__wrapper{padding:80px 0 35px 0}
+.sect_6__wrapper .l-wrap .form_container .btn_container{margin-top:35px}
 .sect_6__wrapper .l-wrap .form_container .form-group-1{margin-bottom:25px}
 .sect_6__wrapper .l-wrap .form_container .form-group-1 .row:nth-of-type(1){width:100%;margin-bottom:15px;padding-top:0}
 .sect_6__wrapper .l-wrap .form_container .form-group-1 .row:nth-of-type(2){width:100%}
