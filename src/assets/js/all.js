@@ -144,7 +144,7 @@ $('.slider').slick({
   })
   .on({
     beforeChange: function(event, slick, currentSlide, nextSlide) {
-      $(".slick-slide", this).eq(currentSlide).addClass("preve-slide");
+      // $(".slick-slide", this).eq(currentSlide).addClass("preve-slide");
       $(".slick-slide", this).eq(nextSlide).addClass("slide-animation");
     },
     afterChange: function() {

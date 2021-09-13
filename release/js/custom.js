@@ -133,7 +133,7 @@ var $slide = $(".slide").slick({
   autoplay: true
 }).on({
   beforeChange: function beforeChange(event, slick, currentSlide, nextSlide) {
-    $(".slick-slide", this).eq(currentSlide).addClass("preve-slide");
+    // $(".slick-slide", this).eq(currentSlide).addClass("preve-slide");
     $(".slick-slide", this).eq(nextSlide).addClass("slide-animation");
   },
   afterChange: function afterChange() {
