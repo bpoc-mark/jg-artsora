@@ -20,11 +20,9 @@ function headerscroll() {
 
 
 $(window).on('load', function () {
-  var w = $(window).width();
-
-  if (w <= 450) {
-    $('meta[name=viewport]').attr('content', 'width=480');
-  }
+  var w = $(window).width(); // if( w <= 450 ) {
+  //     $( 'meta[name=viewport]' ).attr( 'content', 'width=480' );
+  // }
 
   if (w <= 750) {
     $('.isHome').css({

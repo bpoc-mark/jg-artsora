@@ -18,9 +18,9 @@ function headerscroll() {
 // 画面幅が375pxより小さい場合、viewportを再設定
 $( window ).on( 'load', function() {
     var w = $( window ).width();
-    if( w <= 450 ) {
-        $( 'meta[name=viewport]' ).attr( 'content', 'width=480' );
-    }
+    // if( w <= 450 ) {
+    //     $( 'meta[name=viewport]' ).attr( 'content', 'width=480' );
+    // }
     if( w <= 750 ) {
         $('.isHome').css({
             "background-position" : "52% 0%",

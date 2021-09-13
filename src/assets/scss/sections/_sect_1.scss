@@ -43,7 +43,7 @@
 		}
 
 		.sub {
-			font-family: Noto Sans CJK JP;
+			font-family: noto-sans-cjk-jp, sans-serif;
 			font-weight: 700;
 
 			@include font-line(18);
@@ -62,6 +62,46 @@
 
 			@include is-sp {
 				padding: 50px 0 35px 0;
+
+
+				&::before {
+					content: 'PREV.';
+					position: absolute;
+					top: 88%;
+					font-family: noto-sans-cjk-jp, sans-serif;
+					font-weight: 700;
+					font-size: .875rem;
+					letter-spacing: 1px;
+					left: 55px;
+	
+					@include is-max(600px) {
+						top: 87%;
+					}
+
+					@include is-max(400px) {
+						left: 35px;
+					}
+				}
+	
+				&::after {
+					content: 'NEXT';
+					position: absolute;
+					top: 88%;
+					font-family: noto-sans-cjk-jp, sans-serif;
+					font-weight: 700;
+					font-size: .875rem;
+					letter-spacing: 1px;
+					right: 55px;
+	
+					@include is-max(600px) {
+						top: 87%;
+					}
+
+					@include is-max(400px) {
+						right: 35px;
+					}
+				}
+
 			}
 
 			&__item {
@@ -79,7 +119,7 @@
 				}
 
 				.desc {
-					font-family: Noto Sans CJK JP;
+					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 700;
 					padding: 20px 0 0 0;
 
@@ -87,7 +127,7 @@
 				}
 
 				p {
-					font-family: Noto Sans CJK JP;
+					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 600;
 					padding: 15px 0 0 0;
 
