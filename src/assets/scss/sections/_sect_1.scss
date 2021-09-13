@@ -67,7 +67,7 @@
 				&::before {
 					content: 'PREV.';
 					position: absolute;
-					top: 88%;
+					top: 93.3%;
 					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 700;
 					font-size: .875rem;
@@ -75,7 +75,7 @@
 					left: 55px;
 	
 					@include is-max(600px) {
-						top: 87%;
+						top: 93%;
 					}
 
 					@include is-max(400px) {
@@ -86,7 +86,7 @@
 				&::after {
 					content: 'NEXT';
 					position: absolute;
-					top: 88%;
+					top: 93.3%;
 					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 700;
 					font-size: .875rem;
@@ -94,11 +94,11 @@
 					right: 55px;
 	
 					@include is-max(600px) {
-						top: 87%;
+						top: 93%;
 					}
 
 					@include is-max(400px) {
-						right: 35px;
+						right: 45px;
 					}
 				}
 
