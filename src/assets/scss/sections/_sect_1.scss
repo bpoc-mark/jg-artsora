@@ -63,45 +63,43 @@
 			@include is-sp {
 				padding: 50px 0 35px 0;
 
-
 				&::before {
-					content: 'PREV.';
+					content: "PREV.";
 					position: absolute;
 					top: 93.3%;
 					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 700;
-					font-size: .875rem;
+					font-size: 0.875rem;
 					letter-spacing: 1px;
 					left: 55px;
-	
+
 					@include is-max(600px) {
-						top: 93%;
+						top: 92.5%;
 					}
 
 					@include is-max(400px) {
 						left: 35px;
 					}
 				}
-	
+
 				&::after {
-					content: 'NEXT';
+					content: "NEXT";
 					position: absolute;
 					top: 93.3%;
 					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 700;
-					font-size: .875rem;
+					font-size: 0.875rem;
 					letter-spacing: 1px;
 					right: 55px;
-	
+
 					@include is-max(600px) {
-						top: 93%;
+						top: 92.5%;
 					}
 
 					@include is-max(400px) {
 						right: 45px;
 					}
 				}
-
 			}
 
 			&__item {
