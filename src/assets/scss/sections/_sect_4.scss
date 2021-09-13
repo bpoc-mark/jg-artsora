@@ -31,7 +31,7 @@
 
 			.text {
 				@include font-line(18);
-				font-family: noto-sans-cjk-jp, sans-serif;
+				font-family: Noto Sans CJK JP;
 				font-weight: 700;
 			}
 		}
@@ -93,7 +93,7 @@
 
 					.title {
 						@include font-line(18);
-						font-family: noto-sans-cjk-jp, sans-serif;
+						font-family: Noto Sans CJK JP;
 						font-weight: 700;
 						padding-bottom: 27px;
 
@@ -113,7 +113,7 @@
 
 					.text {
 						@include font-line(16);
-						font-family: noto-sans-cjk-jp, sans-serif;
+						font-family: Noto Sans CJK JP;
 						font-weight: 400;
 						width: 300px;
 
@@ -159,7 +159,7 @@
 
 						.title {
 							@include font-line(18);
-							font-family: noto-sans-cjk-jp, sans-serif;
+							font-family: Noto Sans CJK JP;
 							font-weight: 700;
 							padding-bottom: 27px;
 
@@ -179,7 +179,7 @@
 
 						.text {
 							@include font-line(16);
-							font-family: noto-sans-cjk-jp, sans-serif;
+							font-family: Noto Sans CJK JP;
 							font-weight: 400;
 						}
 					}
