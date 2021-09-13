@@ -10,6 +10,11 @@
 		.l-wrap {
 			max-width: 900px;
 
+			@include is-sp {
+				padding-right: 25px !important;
+				padding-left: 25px !important;
+			}
+
 			.ttl_cont {
 				text-align: center;
 

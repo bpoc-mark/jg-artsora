@@ -1136,6 +1136,7 @@ template{display:none}
 .sect_5 .content_2 .exhibit_2__txt .ttl_2{padding:40px 0 30px 0}
 .sect_5 .img_gallery img{width:100%}
 .sect_6__wrapper{padding:80px 0 35px 0}
+.sect_6__wrapper .l-wrap{padding-right:25px !important;padding-left:25px !important}
 .sect_6__wrapper .l-wrap .form_container .btn_container{margin-top:35px}
 .sect_6__wrapper .l-wrap .form_container .form-group-1{margin-bottom:25px}
 .sect_6__wrapper .l-wrap .form_container .form-group-1 .row:nth-of-type(1){width:100%;margin-bottom:15px;padding-top:0}
