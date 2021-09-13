@@ -1120,6 +1120,7 @@ template{display:none}
 .sect_1__wrapper .sched_cont::before{content:"PREV.";position:absolute;top:93.3%;font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;font-size:.875rem;letter-spacing:1px;left:55px}
 .sect_1__wrapper .sched_cont::after{content:"NEXT";position:absolute;top:93.3%;font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;font-size:.875rem;letter-spacing:1px;right:55px}
 .sect_1__wrapper .sched_cont__item img{width:100%;height:100%}
+.sect_1 .slick-slide{padding:0 0 !important}
 .sect_2{padding-top:100px}
 .sect_3 .l-wrap .sect_3__header{padding-top:60px;padding-bottom:50px}
 .sect_3 .l-wrap ul{-ms-flex-wrap:wrap;flex-wrap:wrap}
@@ -1128,6 +1129,7 @@ template{display:none}
 .sect_3 .l-wrap ul li{width:100%}
 .sect_3 .l-wrap ul li img{width:100%}
 .sect_3 .l-wrap .foot{display:none}
+.sect_3 .slick-slide{padding:0 0 !important}
 .sect_5 .l-wrap{padding-left:25px !important;padding-right:25px !important;width:100%}
 .sect_5 .content_1 .exhibit_1{width:100%}
 .sect_5 .content_1 .exhibit_1__txt .ttl_2 br{display:block}

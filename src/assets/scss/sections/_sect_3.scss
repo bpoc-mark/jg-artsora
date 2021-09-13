@@ -158,5 +158,9 @@
 
 	.slick-slide {
 		padding: 0px 20px !important;
+
+		@include is-sp {
+			padding: 0px 0px !important;
+		}
 	}
 }
