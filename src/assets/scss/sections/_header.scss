@@ -15,12 +15,20 @@
 
 			@include is-sp {
 				padding: 0;
-				width: 100%;
+				width: 70%;
 				position: absolute;
 				left: 50%;
 				transform: translate(-50%, 50%);
 				top: 15%;
 				text-align: center;
+			}
+
+			@include is-max(600px) {
+				width: 90%;
+			}
+
+			@include is-max(500px) {
+				width: 100%;
 			}
 
 			img {
