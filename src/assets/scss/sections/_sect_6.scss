@@ -59,7 +59,7 @@
 					width: 100%;
 					padding: 10px 15px;
 					border: none;
-					font-family: noto-sans-cjk-jp, sans-serif;
+					font-family: noto-sans-cjk-jp, sans-serif !important;
 					font-weight: 700;
 					@include font-line(14);
 					color: #000;
