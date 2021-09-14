@@ -7,8 +7,8 @@
 			height: 720px;
 		}
 
-		@media only screen and(max-width: 900px) and (min-width: 750px) {
-			height: 730px;
+		@media only screen and(max-width: 1099px) and (min-width: 750px) {
+			height: 750px;
 		}
 
 		&--logo {
@@ -158,7 +158,7 @@
 					width: 100%;
 					object-fit: fill;
 
-					@media only screen and(max-width: 900px) and (min-width: 750px) {
+					@media only screen and(max-width: 1099px) and (min-width: 750px) {
 						height: 90%;
 					}
 				}
