@@ -65,31 +65,31 @@
             <div class="page__top isHome">
                 <ul class="slide">
                     <li class="item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/1.png" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/1_new.png" />
                     </li>
                     <li class="item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/2.jpeg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/2_new.jpeg" />
                     </li>
                     <li class="item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/3.JPG" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/3_new.JPG" />
                     </li>
                     <li class="item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/4.JPG" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/4_new.JPG" />
                     </li>
                 </ul>
 
                 <ul class="slide-sp">
                     <li class="item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/1_sp.jpeg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/1_sp_new.jpg" />
                     </li>
                     <li class="item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/2_sp.jpeg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/2_sp_new.jpg" />
                     </li>
                     <li class="item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/3_sp.jpeg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/3_sp_new.jpg" />
                     </li>
                     <li class="item">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/4_sp.jpg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/4_sp_new.jpg" />
                     </li>
                 </ul>
 
