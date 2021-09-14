@@ -74,7 +74,7 @@
 					color: #000;
 
 					&::placeholder {
-						font-weight: 400;
+						font-weight: 500;
 						@include font-line(14);
 					}
 
@@ -104,6 +104,12 @@
 						@include font-line(16);
 						width: 100%;
 						padding: 15px 0;
+
+						&:hover {
+							background-color: #000;
+							transition: 0.5s;
+						}
+
 					}
 					input[value="送信"] {
 						background-color: #006496;

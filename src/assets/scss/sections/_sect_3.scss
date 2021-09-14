@@ -45,7 +45,7 @@
 				flex-wrap: wrap;
 
 				&::before {
-					content: 'PREV.';
+					content: 'PREV';
 					position: absolute;
 					top: 88%;
 					font-family: noto-sans-cjk-jp, sans-serif;
@@ -132,18 +132,19 @@
 				margin: 0 auto;
 				background-color: #000;
 				display: block;
+				overflow: hidden;
 
 				&::before {
 					content: "";
 					display: block;
 					position: absolute;
 					z-index: 4;
-					top: 0;
+					top: -30px;
 					left: 0;
 					right: 0;
 					width: 1px;
 					height: 15px;
-					background-color: #fff;
+					background-color: #f5f5f5;
 					animation: fullheight 2s infinite;
 				}
 
