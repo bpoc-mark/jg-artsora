@@ -697,7 +697,7 @@ template{display:none}
 .sect_6__wrapper .l-wrap .form_container input[type="text"]:nth-of-type(5),.sect_6__wrapper .l-wrap .form_container input[type="email"]:nth-of-type(5),.sect_6__wrapper .l-wrap .form_container input[type="tel"]:nth-of-type(5),.sect_6__wrapper .l-wrap .form_container select:nth-of-type(5),.sect_6__wrapper .l-wrap .form_container textarea:nth-of-type(5){width:140px}
 .sect_6__wrapper .l-wrap .form_container .btn_container{text-align:center;width:440px;margin:50px auto 0}
 .sect_6__wrapper .l-wrap .form_container .btn_container input[type="submit"]{background-color:#006496;color:#fff;font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;font-size:1rem;width:100%;padding:15px 0}
-.sect_6__wrapper .l-wrap .form_container .btn_container input[type="submit"]:hover{background-color:#000;-webkit-transition:.5s;transition:.5s}
+.sect_6__wrapper .l-wrap .form_container .btn_container input[type="submit"]:hover{background-color:#000;-webkit-transition:.5s linear;transition:.5s linear}
 .sect_6__wrapper .l-wrap .form_container .btn_container input[value="送信"]{background-color:#006496}
 .sect_6__wrapper .l-wrap .form_container .btn_container input[type="button"]{background-color:#e53333;color:#fff;font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;font-size:1rem;width:100%;padding:15px 0;margin-bottom:20px}
 .sect_6__wrapper .l-wrap .form_container .form-group-1{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:40px}
