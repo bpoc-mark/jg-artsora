@@ -78,7 +78,7 @@
 					}
 
 					@include is-max(400px) {
-						left: 0;
+						left: 35px;
 					}
 				}
 
@@ -97,7 +97,7 @@
 					}
 
 					@include is-max(400px) {
-						right: 0;
+						right: 45px;
 					}
 				}
 			}
