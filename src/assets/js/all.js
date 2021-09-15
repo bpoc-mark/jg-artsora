@@ -17,6 +17,8 @@ function headerscroll() {
 
 // 画面幅が375pxより小さい場合、viewportを再設定
 $( window ).on( 'load', function() {
+
+
     var w = $( window ).width();
     // if( w <= 450 ) {
     //     $( 'meta[name=viewport]' ).attr( 'content', 'width=480' );
@@ -140,7 +142,6 @@ $('.slider').slick({
     ]
   });
 
-
   // BANNER SLIDER PC
   var $slide = $(".slide")
   .slick({
@@ -190,4 +191,25 @@ $slide.find(".slick-slide").eq(0).addClass("slide-animation");
 // ADD OPTGROUP ON SELECT
 $(function() {
   $('select').wrapInner('<optgroup label=""></optgroup>');
+});
+
+
+
+// JS TO REMOVE YELLOW LOADER ON HEADER WHEN DOCUMENT IS LOADED
+
+function onReady(callback) {
+  var intervalId = window.setInterval(function() {
+    if (document.getElementsByTagName('body')[0] !== undefined) {
+      window.clearInterval(intervalId);
+      callback.call(this);
+    }
+  }, 1000);
+}
+
+function setVisible(selector, visible) {
+  document.querySelector(selector).style.display = visible ? 'block' : 'none';
+}
+
+onReady(function() {
+  setVisible('#background_loader', false);
 });

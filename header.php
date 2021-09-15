@@ -64,6 +64,7 @@
     <main>
         <div class="page__header">
             <div class="page__top isHome">
+                <div id="background_loader"></div>
                 <ul class="slide">
                     <li class="item">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/1_new.png" />
