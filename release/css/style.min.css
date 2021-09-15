@@ -678,7 +678,7 @@ template{display:none}
 .sect_5 .content_2 .exhibit_2__img{width:calc(100% - 530px)}
 .sect_5 .content_2 .exhibit_2__img img{width:100%}
 .sect_5 .img_gallery{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
-.sect_5 .img_gallery img{width:calc(100% / 4)}
+.sect_5 .img_gallery img{width:calc(100% / 4);height:100%}
 .sect_6__wrapper{background:#f5f5f5;padding:150px 0 140px 0}
 .sect_6__wrapper .l-wrap{max-width:900px}
 .sect_6__wrapper .l-wrap .ttl_cont{text-align:center}
