@@ -133,6 +133,8 @@
 	background-repeat: no-repeat !important;
 	background-size: contain;
 	right: 15px !important;
+	width: 25px !important;
+	margin-right: 74px;
 
 	@include is-sp {
 		right: 0;
@@ -146,6 +148,7 @@
 	background-repeat: no-repeat !important;
 	background-size: contain;
 	right: 30px !important;
+	width: 25px !important;
 
 	@include is-sp {
 		right: 15px !important;

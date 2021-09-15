@@ -203,8 +203,8 @@ template{display:none}
 .p-addons .btnArea .btn{width:100%;text-align:center;font-size:.9375rem}
 .p-addons .btnArea .btn i{margin-left:5px}
 .slick-next,.slick-prev{font-size:0;line-height:0;position:absolute;z-index:500;top:-30px;right:0;height:0 !important;display:block;width:10% !important;height:30px !important;padding:0;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);cursor:pointer;border:0;outline:0;background:0}
-.slick-prev{background-image:url("../image/sect_1/arrow_left.png") !important;background-position:top left;background-repeat:no-repeat !important;background-size:contain;right:15px !important}
-.slick-next{background-image:url("../image/sect_1/arrow_right.png") !important;background-position:top right;background-repeat:no-repeat !important;background-size:contain;right:30px !important}
+.slick-prev{background-image:url("../image/sect_1/arrow_left.png") !important;background-position:top left;background-repeat:no-repeat !important;background-size:contain;right:15px !important;width:25px !important;margin-right:74px}
+.slick-next{background-image:url("../image/sect_1/arrow_right.png") !important;background-position:top right;background-repeat:no-repeat !important;background-size:contain;right:30px !important;width:25px !important}
 #sect_3 .slick-next:before,#sect_3 .slick-prev:before{display:none}
 #sect_3 .slick-next,#sect_3 .slick-prev{font-size:0;line-height:0;position:absolute;z-index:500;top:-30px;right:0;height:0 !important;display:block;width:10% !important;height:30px !important;padding:0;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);cursor:pointer;border:0;outline:0;background:center !important}
 #sect_3 .slick-prev{background-image:url("../image/sect_3/left_arrow.png") !important;background-position:center;background-repeat:no-repeat !important;background-size:contain}
