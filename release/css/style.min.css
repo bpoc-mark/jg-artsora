@@ -678,7 +678,7 @@ template{display:none}
 .sect_5 .content_2 .exhibit_2__img{width:calc(100% - 530px)}
 .sect_5 .content_2 .exhibit_2__img img{width:100%}
 .sect_5 .img_gallery{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
-.sect_5 .img_gallery img{width:calc(100% / 4);height:100%}
+.sect_5 .img_gallery img{width:calc(100% / 4)}
 .sect_6__wrapper{background:#f5f5f5;padding:150px 0 140px 0}
 .sect_6__wrapper .l-wrap{max-width:900px}
 .sect_6__wrapper .l-wrap .ttl_cont{text-align:center}
@@ -1140,7 +1140,7 @@ template{display:none}
 .sect_5 .content_1 .exhibit_1{width:100%}
 .sect_5 .content_1 .exhibit_1__txt .ttl_2 br{display:block}
 .sect_5 .content_2 .exhibit_2__txt .ttl_2{padding:40px 0 30px 0}
-.sect_5 .img_gallery img{width:100%}
+.sect_5 .img_gallery img{width:100%;height:100%}
 .sect_6__wrapper{padding:80px 0 35px 0}
 .sect_6__wrapper .l-wrap{padding-right:25px !important;padding-left:25px !important}
 .sect_6__wrapper .l-wrap .form_container .btn_container{margin-top:35px}
