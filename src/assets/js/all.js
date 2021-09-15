@@ -112,6 +112,17 @@ $('.slider').slick({
         infinite: true,
         dots: false,
       }
+    },{
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        dots: false,
+        infinite: true,
+        autoplay: true,
+        arrows: false,
+        swipe: true,
+      }
     }, {
       breakpoint: 750,
       settings: {

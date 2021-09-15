@@ -553,6 +553,7 @@ template{display:none}
 .page__top .slide .item::before{content:"";display:block;padding:39%}
 .page__top .slide .item img{position:absolute;top:0;bottom:0;right:0;left:0;width:100%;-o-object-fit:fill;object-fit:fill}
 .page__top .slide .item .image{position:relative;overflow:hidden}
+.page__top .slick-track::before{content:'';width:100% !important;height:90% !important;position:absolute !important;inset:0 !important;background-color:#ffce00;z-index:-10}
 .page__top .slide>.slick-list,.page__top .slide>.slick-list>.slick-track,.page__top .slide>.slick-list>.slick-track>.slick-slide>div{position:relative;height:100%}
 .page__top .slide-animation{-webkit-animation:fadezoom 8s 0s forwards;animation:fadezoom 8s 0s forwards}
 .page__top .slide-sp{position:relative;margin:0;padding:0;height:800px;display:none}

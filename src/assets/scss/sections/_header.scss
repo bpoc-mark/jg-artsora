@@ -170,6 +170,21 @@
 			overflow: hidden;
 		}
 
+		.slick-track {
+			
+			&::before {
+
+				content: '';
+				width: 100% !important;
+				height: 90% !important;
+				position: absolute !important;
+				inset: 0 !important;
+				background-color: #FFCE00;
+				z-index: -10;
+				
+			}
+		}
+
 		.slide > .slick-list,
 		.slide > .slick-list > .slick-track,
 		.slide > .slick-list > .slick-track > .slick-slide > div {
