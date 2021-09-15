@@ -88,9 +88,6 @@ $('.slider').slick({
           dots: false
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
 
@@ -100,9 +97,7 @@ $('.slider').slick({
   $('.sect_3__slider').slick({
     dots: false,
     infinite: true,
-    autoplay: true,
-    swipe: false,
-    arrows: false,
+    arrows: true,
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -136,9 +131,7 @@ $('.slider').slick({
         arrows: true,
         swipe: true,
       }
-    } // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
+    }
     ]
   });
 
@@ -197,19 +190,19 @@ $(function() {
 
 // JS TO REMOVE YELLOW LOADER ON HEADER WHEN DOCUMENT IS LOADED
 
-function onReady(callback) {
-  var intervalId = window.setInterval(function() {
-    if (document.getElementsByTagName('body')[0] !== undefined) {
-      window.clearInterval(intervalId);
-      callback.call(this);
-    }
-  }, 4000);
-}
+// function onReady(callback) {
+//   var intervalId = window.setInterval(function() {
+//     if (document.getElementsByTagName('body')[0] !== undefined) {
+//       window.clearInterval(intervalId);
+//       callback.call(this);
+//     }
+//   }, 4000);
+// }
 
-function setVisible(selector, visible) {
-  document.querySelector(selector).style.display = visible ? 'block' : 'none';
-}
+// function setVisible(selector, visible) {
+//   document.querySelector(selector).style.display = visible ? 'block' : 'none';
+// }
 
-onReady(function() {
-  setVisible('#background_loader', false);
-});
+// onReady(function() {
+//   setVisible('#background_loader', false);
+// });

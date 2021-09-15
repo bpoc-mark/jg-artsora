@@ -73,6 +73,10 @@
 					@include font-line(14);
 					color: #000;
 
+					@include is-sp {
+						@include font-line(16);
+					}
+
 					&::placeholder {
 						font-weight: 500;
 						@include font-line(14);
@@ -109,7 +113,6 @@
 							background-color: #000;
 							transition: 0.5s linear;
 						}
-
 					}
 					input[value="送信"] {
 						background-color: #006496;

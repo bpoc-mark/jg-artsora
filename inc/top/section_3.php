@@ -44,13 +44,5 @@
                 <p class="text">開放感たっぷりの吹き抜けリビング</p>
             </li>
         </ul>
-
-        <div class="foot">
-            <p class="text">
-                MORE
-            </p>
-            <div class="line"></div>
-        </div>
-
     </div>
 </section>
