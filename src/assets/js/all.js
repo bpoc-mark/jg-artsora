@@ -203,7 +203,7 @@ function onReady(callback) {
       window.clearInterval(intervalId);
       callback.call(this);
     }
-  }, 1000);
+  }, 4000);
 }
 
 function setVisible(selector, visible) {
