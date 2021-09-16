@@ -215,9 +215,15 @@
 								background-repeat: no-repeat, repeat;
 								background-position: left 0.7em top 50%, 0 0;
 								background-size: 4%;
+								font-family: noto-sans-cjk-jp, sans-serif;
+								font-weight: 500;
 
 								&::-ms-expand {
 									display: none;
+								}
+
+								@include is-sp {
+									background-size: 6%;
 								}
 							}
 						}
