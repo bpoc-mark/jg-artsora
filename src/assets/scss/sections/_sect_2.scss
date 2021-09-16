@@ -301,7 +301,9 @@
 
                 @include is-max(1350px) {
                     width: 90%;
+                    padding: 68px 30px 0 30px;
                 }
+                
 
                 @include is-sp {
                     padding-top: 0px;
@@ -313,6 +315,10 @@
 
                 .left {
                     width: 40%;
+                    
+                    @media (min-width: 750px) and (max-width: 1400px){
+                        width: 45%;
+                    }
 
                     @include is-sp {
                         width: 100%;
@@ -362,6 +368,10 @@
                 .right {
                     width: 55%;
                     overflow: hidden;
+
+                    @media (min-width: 750px) and (max-width: 1400px){
+                        width: 50%;
+                    }
 
                     @include is-sp {
                         width: 100%;
