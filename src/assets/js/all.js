@@ -191,8 +191,10 @@ $slide.find(".slick-slide").eq(0).addClass("slide-animation");
 
 // ADD OPTGROUP ON SELECT
 $(function() {
-  $('select').wrapInner('<optgroup label=""></optgroup>');
+  $('select').append('<optgroup label=""></optgroup>');
 });
+
+
 
 
 

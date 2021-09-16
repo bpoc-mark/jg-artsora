@@ -57,6 +57,8 @@
 				top: 50%;
 				max-width: 1090px;
 				transform: translate(-50%, -50%);
+				left: 60px;
+				@include font-line(14);
 			}
 
 			.tm-scroll {
@@ -65,7 +67,8 @@
 				height: 80px;
 				overflow: hidden;
 				margin: auto;
-				top: 57%;
+				top: 55%;
+				left: 60px;
 
 				span {
 					position: absolute;
@@ -166,33 +169,18 @@
 			overflow: hidden;
 		}
 
-		// .slick-track {
+		// #background_loader {
+		// 	width: 100% !important;
+		// 	height: 90%;
+		// 	position: absolute !important;
+		// 	inset: 0 !important;
+		// 	background-color: #ffce00;
+		// 	z-index: -10;
 
-		// 	&::before {
-
-		// 		content: '';
-		// width: 100% !important;
-		// height: 90% !important;
-		// position: absolute !important;
-		// inset: 0 !important;
-		// background-color: #FFCE00;
-		// z-index: -10;
-
+		// 	@include is-sp {
+		// 		height: 100% !important;
 		// 	}
 		// }
-
-		#background_loader {
-			width: 100% !important;
-			height: 90%;
-			position: absolute !important;
-			inset: 0 !important;
-			background-color: #ffce00;
-			z-index: -10;
-
-			@include is-sp {
-				height: 100% !important;
-			}
-		}
 
 		.slide > .slick-list,
 		.slide > .slick-list > .slick-track,

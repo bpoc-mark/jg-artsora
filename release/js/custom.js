@@ -170,7 +170,7 @@ var $slide = $(".slide-sp").slick({
 $slide.find(".slick-slide").eq(0).addClass("slide-animation"); // ADD OPTGROUP ON SELECT
 
 $(function () {
-  $('select').wrapInner('<optgroup label=""></optgroup>');
+  $('select').append('<optgroup label=""></optgroup>');
 }); // JS TO REMOVE YELLOW LOADER ON HEADER WHEN DOCUMENT IS LOADED
 // function onReady(callback) {
 //   var intervalId = window.setInterval(function() {

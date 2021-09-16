@@ -83,6 +83,7 @@
                         @include font-line(18);
                         font-family: noto-sans-cjk-jp, sans-serif;
                         font-weight: 500;
+                        text-align: justify;
                     }
 
                 }
@@ -180,6 +181,7 @@
                         @include font-line(18);
                         font-family: noto-sans-cjk-jp, sans-serif;
                         font-weight: 500;
+                        text-align: justify;
                     }
                 }
 
@@ -246,6 +248,7 @@
                         @include font-line(18);
                         font-family: noto-sans-cjk-jp, sans-serif;
                         font-weight: 500;
+                        text-align: justify;
                     }
 
                 }
@@ -352,6 +355,7 @@
                         font-weight: 500;
                         padding-top: 30px;
                         line-height: 29px;
+                        text-align: justify;
                     }
                 }
 
@@ -369,6 +373,8 @@
 
 
                     .modal {
+                        width: 100%;
+
                         &:hover {
                             cursor: pointer;
 
@@ -386,6 +392,7 @@
                         padding-top: 25px;
                         color: #006496;
                         line-height: 26px;
+                        text-align: justify;
                     }
                 }
             }
@@ -483,6 +490,7 @@
                     font-weight: 500;
                     line-height: 29px;
                     padding-top: 30px;
+                    text-align: justify;
                 }
             }
 
