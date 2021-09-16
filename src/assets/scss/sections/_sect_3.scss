@@ -4,6 +4,7 @@
 	.l-wrap {
 		width: 1340px;
 		padding: 0;
+		overflow: hidden;
 
 		@include is-max(1340px) {
 			padding: 0 25px;
@@ -34,7 +35,7 @@
 			}
 		}
 
-		ul {
+		.sect_3__slider {
 			display: flex;
 			justify-content: space-between;
 			gap: 40px;
@@ -67,7 +68,7 @@
 					font-weight: 700;
 					font-size: 0.875rem;
 					letter-spacing: 1px;
-					right: 55px;
+					right: 47px;
 
 					@include is-max(600px) {
 						top: 82%;
@@ -75,7 +76,7 @@
 				}
 			}
 
-			li {
+			.item {
 				width: calc(100% / 3);
 
 				@include is-max(750px) {
