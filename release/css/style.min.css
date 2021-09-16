@@ -206,9 +206,9 @@ template{display:none}
 .slick-prev{background-image:url("../image/sect_1/arrow_left.png") !important;background-position:top left;background-repeat:no-repeat !important;background-size:contain;right:15px !important;width:25px !important;margin-right:74px}
 .slick-next{background-image:url("../image/sect_1/arrow_right.png") !important;background-position:top right;background-repeat:no-repeat !important;background-size:contain;right:30px !important;width:25px !important}
 #sect_3 .slick-next:before,#sect_3 .slick-prev:before{display:none}
-#sect_3 .slick-next,#sect_3 .slick-prev{font-size:0;line-height:0;position:absolute;z-index:500;top:-30px;right:0;height:0 !important;display:block;width:10% !important;height:30px !important;padding:0;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);cursor:pointer;border:0;outline:0;background:center !important}
-#sect_3 .slick-prev{background-image:url("../image/sect_3/left_arrow.png") !important;background-position:center;background-repeat:no-repeat !important;background-size:contain}
-#sect_3 .slick-next{background-image:url("../image/sect_3/right_arrow1.png") !important;background-position:center;background-repeat:no-repeat !important;background-size:contain}
+#sect_3 .slick-next,#sect_3 .slick-prev{font-size:0;line-height:0;position:absolute;z-index:500;top:-95px;right:0;height:0 !important;display:block;width:10% !important;height:30px !important;padding:0;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);cursor:pointer;border:0;outline:0;background:center !important}
+#sect_3 .slick-prev{background-image:url("../image/sect_3/left_arrow.png") !important;background-position:center;background-repeat:no-repeat !important;background-size:contain;width:15px !important;margin-right:80px;background-color:#f5f5f5 !important}
+#sect_3 .slick-next{background-image:url("../image/sect_3/right_arrow1.png") !important;background-position:center;background-repeat:no-repeat !important;background-size:contain;width:15px !important;background-color:#f5f5f5 !important}
 .p-shake{-webkit-animation:shake 1.5s infinite ease;animation:shake 1.5s infinite ease}
 .p-shake__torigin{-webkit-transform-origin:130px 15px;transform-origin:130px 15px}
 .p-walk{-webkit-animation:walk 10s both;animation:walk 10s both}
@@ -608,7 +608,10 @@ template{display:none}
 .sect_2 .body_content_2 .box_4 .l-wrap .left .title{font-size:1.375rem;font-family:noto-sans-cjk-jp,sans-serif;font-weight:700}
 .sect_2 .body_content_2 .box_4 .l-wrap .left .text{font-size:1.125rem;font-family:noto-sans-cjk-jp,sans-serif;font-weight:500;padding-top:30px;line-height:29px}
 .sect_2 .body_content_2 .box_4 .l-wrap .right{width:55%}
+.sect_2 .body_content_2 .box_4 .l-wrap .right .modal:hover{cursor:pointer}
 .sect_2 .body_content_2 .box_4 .l-wrap .right .text{font-size:1rem;font-family:noto-sans-cjk-jp,sans-serif;font-weight:500;padding-top:25px;color:#006496;line-height:26px}
+.sect_2 .body_content_2 .box_4 .modal_content{display:none;width:100vw;height:100%;background-color:rgba(0,0,0,0.6);position:fixed;inset:0;z-index:9999}
+.sect_2 .body_content_2 .box_4 .modal_content img{width:75%;height:75%;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-o-object-fit:contain;object-fit:contain}
 .sect_2 .body_content_2 .box_5{padding-top:90px;padding-bottom:55px}
 .sect_2 .body_content_2 .box_5 .l-wrap{width:1090px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .sect_2 .body_content_2 .box_5 .l-wrap .left{width:46%}
@@ -827,6 +830,7 @@ template{display:none}
 .sect_2 .body_content_2 .box_4 .l-wrap .left::after{right:-25px;top:0}
 .sect_2 .body_content_2 .box_4 .l-wrap .right{width:100%;padding-top:30px}
 .sect_2 .body_content_2 .box_4 .l-wrap .right img{width:100%}
+.sect_2 .body_content_2 .box_4 .l-wrap .right .modal:hover{cursor:default}
 .sect_2 .body_content_2 .box_5{padding-top:45px;padding-bottom:45px}
 .sect_2 .body_content_2 .box_5 .l-wrap{width:100%;padding-right:25px;padding-left:25px;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .sect_2 .body_content_2 .box_5 .l-wrap .left{width:100%}

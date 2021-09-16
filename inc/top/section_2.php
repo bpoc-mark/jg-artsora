@@ -79,12 +79,16 @@
                 </div>
 
                 <div class="right">
-                    <img src="<?php echo get_template_directory_uri() . '/release/image/sect_2/img4.png' ?>" alt="">
+                    <img src="<?php echo get_template_directory_uri() . '/release/image/sect_2/img4.png' ?>" alt="" class="modal">
 
                     <p class="text">
                     壁内の断熱材を挟んで2つの空気層になっており、エアパスダンパーという空気取入口を通じて空気が循環する仕組みになっています。空気は暖められると上昇する性質があるため、夏は空気が床下から屋根に向かって抜ける仕様に。その際、熱気や湿気も外に運んでくれるのです。冬は、床下と屋根裏の換気口を閉じ、空気層に空気を停滞させます。この空気が優れた断熱材の役目を果たし、冬の寒さから守ってくれるのです。
                     </p>
                 </div>
+            </div>
+
+            <div class="modal_content">
+                <img src="<?php echo get_template_directory_uri() . '/release/image/sect_2/img4_new.png' ?>" alt="">
             </div>
         </div>
 
