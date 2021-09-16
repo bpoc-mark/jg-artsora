@@ -32,7 +32,7 @@
                 border-bottom: 1px solid black;
                 width: 85vw;
 
-                @include is-max(960px) {
+                @include is-sp {
                     width: 100vw;
                 }
             }
@@ -52,7 +52,7 @@
                 display: flex;
                 justify-content: space-between;
 
-                @include is-max(960px) {
+                @include is-sp {
                     flex-wrap: wrap;
                 }
 
@@ -64,7 +64,7 @@
                         padding-left: 5%;
                     }
 
-                    @include is-max(960px) {
+                    @include is-sp {
                         padding: 0 25px 0 25px;
                         width: 100%;
                     }
@@ -91,7 +91,7 @@
                 .right {
                     width: 49%;
 
-                    @include is-max(960px) {
+                    @include is-sp {
                         padding-top: 37px;
                         width: 100%;
                     }
@@ -100,10 +100,10 @@
                     img {
                         width: 100%;
                         height: 100%;
-                        object-fit: inherit;
+                        object-fit: cover;
 
                         @include is-max(1400px) {
-                            object-fit: contain;
+                            object-fit: cover;
                         }
                     }
                     
@@ -117,7 +117,7 @@
                 justify-content: space-between;
                 padding-top: 80px;
 
-                @include is-max(960px) {
+                @include is-sp {
                     flex-wrap: wrap;
                     padding-top: 60px;
                     padding-bottom: 30px;
@@ -129,7 +129,7 @@
 
                     width: 43%;
 
-                    @include is-max(960px) {
+                    @include is-sp {
                         width: 100%;
                         padding: 37px 25px 0 25px;
                     }
@@ -137,10 +137,10 @@
                     img {
                         width: 100%;
                         height: 100%;
-                        object-fit: inherit;
+                        object-fit: cover;
 
                         @include is-max(1400px) {
-                            object-fit: contain;
+                            object-fit: cover;
                         }
                     }
 
@@ -156,7 +156,7 @@
                     }
 
                     
-                    @include is-max(960px) {
+                    @include is-sp {
                         padding: 0 25px 0 25px;
                         width: 100%;
                     }
@@ -193,7 +193,7 @@
                 padding-top: 97px;
                 padding-bottom: 120px;
 
-                @include is-max(960px) {
+                @include is-sp {
                     padding-top: 50px;
                     padding-bottom: 0;
                 }
@@ -209,7 +209,7 @@
                 display: flex;
                 justify-content: space-between;
 
-                @include is-max(960px) {
+                @include is-sp {
                     flex-wrap: wrap;
                 }
 
@@ -221,7 +221,7 @@
                     }
 
 
-                    @include is-max(960px) {
+                    @include is-sp {
                         padding: 0 25px 0 25px;
                         width: 100%;
                     }
@@ -260,7 +260,7 @@
                         padding-right: 5%;
                     }
 
-                    @include is-max(960px) {
+                    @include is-sp {
                         padding-top: 37px;
                         width: 100%;
                         padding-right: 0;
@@ -270,7 +270,7 @@
                     img {
                         width: 100%;
                         height: 100%;
-                        object-fit: contain;
+                        object-fit: cover;
                     }
                     
                 }
@@ -287,7 +287,7 @@
             background-color: #f5f5f5;
             padding-top: 80px;
 
-            @include is-max(960px) {
+            @include is-sp {
                 background-color: #fff;
                 padding-top: 0;
             }
@@ -303,7 +303,7 @@
                     width: 90%;
                 }
 
-                @include is-max(960px) {
+                @include is-sp {
                     padding-top: 0px;
                     flex-wrap: wrap;
                     width: 100%;
@@ -314,7 +314,7 @@
                 .left {
                     width: 40%;
 
-                    @include is-max(960px) {
+                    @include is-sp {
                         width: 100%;
                         padding-bottom: 55px;
                         background-color: #f5f5f5;
@@ -363,7 +363,7 @@
                     width: 55%;
                     overflow: hidden;
 
-                    @include is-max(960px) {
+                    @include is-sp {
                         width: 100%;
                         padding-top: 30px;
 
@@ -380,7 +380,7 @@
                             cursor: pointer;
                             animation: fadezoom 1s 0s forwards;
 
-                            @include is-max(960px) {
+                            @include is-sp {
                                 cursor: default;
                             }
                         }
@@ -422,7 +422,7 @@
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
-                    object-fit: contain;
+                    object-fit: cover;
                 }
 
             }
@@ -434,7 +434,7 @@
             padding-top: 90px;
             padding-bottom: 55px;
 
-            @include is-max(960px) {
+            @include is-sp {
                 padding-top: 45px;
                 padding-bottom: 45px;
             }
@@ -448,7 +448,7 @@
                     width: 90%;
                 }
 
-                @include is-max(960px) {
+                @include is-sp {
                     width: 100%;
                     padding-right: 25px;
                     padding-left: 25px;
@@ -458,7 +458,7 @@
                 .left {
                     width: 46%;
 
-                    @include is-max(960px) {
+                    @include is-sp {
                         width: 100%;
                     }
                     
@@ -467,7 +467,7 @@
                 .right {
                     width: 46%;
 
-                    @include is-max(960px) {
+                    @include is-sp {
                         width: 100%;
                         padding-top: 57px;
                     } 
