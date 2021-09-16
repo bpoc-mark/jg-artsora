@@ -22,7 +22,8 @@
 			}
 
 			.title {
-				font-family: "cross-platform-yu-gothic";
+				font-family: "Yu gothic", "cross-platform-yu-gothic", "MS PGothic",
+					sans-serif;
 				font-weight: 700;
 				@include font-line(24);
 			}

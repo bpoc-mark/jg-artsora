@@ -59,7 +59,6 @@
 				@include is-max(770px) {
 					width: 100%;
 					padding-right: 0;
-
 				}
 
 				@include is-sp {
@@ -77,7 +76,8 @@
 				}
 
 				.ttl {
-					font-family: "cross-platform-yu-gothic";
+					font-family: "Yu gothic", "cross-platform-yu-gothic", "MS PGothic",
+						sans-serif;
 					font-weight: 700;
 
 					@include font-line(24);
@@ -202,7 +202,8 @@
 				}
 
 				.ttl {
-					font-family: "cross-platform-yu-gothic";
+					font-family: "Yu gothic", "cross-platform-yu-gothic", "MS PGothic",
+						sans-serif;
 					font-weight: 700;
 
 					@include font-line(24);
@@ -288,7 +289,6 @@
 
 		img {
 			width: calc(100% / 4);
-			
 
 			@include is-sp {
 				width: 100%;

@@ -3,7 +3,7 @@
 	position: relative;
 
 	&::after {
-		content: '';
+		content: "";
 		width: 100%;
 		border-bottom: 1px solid;
 		position: absolute;
@@ -25,7 +25,8 @@
 
 			.title {
 				@include font-line(24);
-				font-family: "cross-platform-yu-gothic";
+				font-family: "Yu gothic", "cross-platform-yu-gothic", "MS PGothic",
+					sans-serif;
 				font-weight: 700;
 			}
 
