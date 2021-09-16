@@ -164,6 +164,10 @@
 	@include is-sp {
 		top: 90% !important;
 	}
+
+	@include is-max(600px) {
+		top: 84% !important;
+	}
 }
 
 

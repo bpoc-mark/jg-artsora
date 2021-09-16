@@ -93,7 +93,8 @@ $('.sect_3__slider').slick({
   dots: false,
   infinite: true,
   arrows: true,
-  speed: 300,
+  autoplay: true,
+  speed: 1000,
   slidesToShow: 3,
   slidesToScroll: 1,
   responsive: [{
@@ -102,7 +103,8 @@ $('.sect_3__slider').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
       infinite: true,
-      dots: false
+      dots: false,
+      autoplay: true
     }
   }, {
     breakpoint: 769,

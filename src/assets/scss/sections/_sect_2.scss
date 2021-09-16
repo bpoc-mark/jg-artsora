@@ -361,6 +361,7 @@
 
                 .right {
                     width: 55%;
+                    overflow: hidden;
 
                     @include is-max(960px) {
                         width: 100%;
@@ -377,10 +378,18 @@
 
                         &:hover {
                             cursor: pointer;
+                            animation: fadezoom 1s 0s forwards;
 
                             @include is-max(960px) {
                                 cursor: default;
                             }
+                        }
+                    }
+
+                    @keyframes fadezoom {
+    
+                        100% {
+                            transform: scale(1.05);
                         }
                     }
                     
