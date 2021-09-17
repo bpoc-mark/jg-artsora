@@ -30,10 +30,10 @@
             </div>
         </div>
         <div class="img_gallery">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_1.png" alt="" data-aos="fade-right" data-aos-delay="500">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_2.png" alt="" data-aos="fade-right" data-aos-delay="600">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_3.png" alt="" data-aos="fade-right" data-aos-delay="700">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_4.png" alt="" data-aos="fade-right" data-aos-delay="800">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_1_new.jpg" alt="" data-aos="fade-right" data-aos-delay="500">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_2_new.jpg" alt="" data-aos="fade-right" data-aos-delay="600">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_3_new.jpg" alt="" data-aos="fade-right" data-aos-delay="700">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_4_new.jpg" alt="" data-aos="fade-right" data-aos-delay="800">
         </div>
         <!-- ROW 2 -->
         <div class="l-wrap">
@@ -63,10 +63,10 @@
             </div>
         </div>
         <div class="img_gallery">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_5.png" alt="" data-aos="fade-right" data-aos-delay="500">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_6.png" alt="" data-aos="fade-right" data-aos-delay="600">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_7.png" alt="" data-aos="fade-right" data-aos-delay="700">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_8.png" alt="" data-aos="fade-right" data-aos-delay="800">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_5_new.jpg" alt="" data-aos="fade-right" data-aos-delay="500">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_6_new.jpg" alt="" data-aos="fade-right" data-aos-delay="600">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_7_new.jpg" alt="" data-aos="fade-right" data-aos-delay="700">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/img_8_new.jpg" alt="" data-aos="fade-right" data-aos-delay="800">
         </div>
     </div>
 </section>

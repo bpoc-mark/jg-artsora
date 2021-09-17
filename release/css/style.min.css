@@ -539,11 +539,12 @@ template{display:none}
 .A1明朝{font-family:"A1明朝"}
 .page__top{height:800px;position:relative}
 .page__top--logo{padding:35px 0 0 40px;position:absolute;z-index:100;top:0}
+.page__top--logo img{height:88px;width:160px}
 .page__top .left_scrl .scroll{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;color:#fff;-webkit-writing-mode:vertical-rl;-ms-writing-mode:tb-rl;writing-mode:vertical-rl;letter-spacing:.2rem;position:absolute;top:50%;max-width:1090px;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);left:60px;font-size:.875rem}
 .page__top .left_scrl .tm-scroll{position:absolute;width:2px;height:80px;overflow:hidden;margin:auto;top:55%;left:60px}
 .page__top .left_scrl .tm-scroll span{position:absolute;top:0;left:0;background-color:#fff;width:100%;height:100%;-webkit-transform:translateY(-100%);transform:translateY(-100%);-webkit-animation:sdl 2s cubic-bezier(1,0,0,1) infinite;animation:sdl 2s cubic-bezier(1,0,0,1) infinite}
 .page__top .ttl_cont{text-align:center;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);top:50%;left:50%;position:absolute;width:100%}
-.page__top .ttl_cont__title{color:#fff;font-family:ten-mincho,serif;font-size:2.875rem}
+.page__top .ttl_cont__title{color:#fff;font-family:ten-mincho,serif;font-size:2.875rem;padding-left:50px}
 .page__top .ttl_cont__sub{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;color:#fff;letter-spacing:.2rem;font-size:1.375rem}
 .page__top .slide{position:relative;margin:0;padding:0;height:800px}
 .page__top .slide .item{position:relative;height:100%}
@@ -1095,7 +1096,7 @@ template{display:none}
 .page__top--logo{padding:0;width:70%;position:absolute;left:50%;-webkit-transform:translate(-50%,50%);transform:translate(-50%,50%);top:15%;text-align:center}
 .page__top--logo img{width:45%}
 .page__top .left_scrl{display:none}
-.page__top .ttl_cont__title{font-size:1.625rem}
+.page__top .ttl_cont__title{font-size:1.625rem;padding-left:30px}
 .page__top .ttl_cont__sub{font-size:1.1875rem}
 .page__top .slide{display:none}
 .page__top .slide .item::before{padding:0}

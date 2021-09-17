@@ -16,6 +16,7 @@
 			position: absolute;
 			z-index: 100;
 			top: 0;
+		
 
 			@include is-sp {
 				padding: 0;
@@ -36,6 +37,9 @@
 			}
 
 			img {
+				height: 88px;
+				width: 160px;
+
 				@include is-sp {
 					width: 45%;
 				}
@@ -121,9 +125,11 @@
 				color: #fff;
 				font-family: ten-mincho, serif;
 				@include font-line(46);
+				padding-left: 50px;
 
 				@include is-sp {
 					@include font-line(26);
+					padding-left: 30px;
 				}
 			}
 

@@ -95,7 +95,7 @@
                 </ul>
 
                 <div class="page__top--logo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/logo.svg" alt="">
                 </div>
                 <div class="l-wrap">
                     <div class="left_scrl">
