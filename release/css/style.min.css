@@ -1096,7 +1096,7 @@ template{display:none}
 .page__top--logo{padding:0;width:70%;position:absolute;left:50%;-webkit-transform:translate(-50%,50%);transform:translate(-50%,50%);top:15%;text-align:center}
 .page__top--logo img{width:45%}
 .page__top .left_scrl{display:none}
-.page__top .ttl_cont__title{font-size:1.625rem;padding-left:30px}
+.page__top .ttl_cont__title{font-size:1.625rem;padding-left:15px}
 .page__top .ttl_cont__sub{font-size:1.1875rem}
 .page__top .slide{display:none}
 .page__top .slide .item::before{padding:0}
