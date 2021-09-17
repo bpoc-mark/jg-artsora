@@ -146,14 +146,11 @@ var $slide = $(".slide").slick({
     $(".slick-slide", this).eq(nextSlide).addClass("slide-animation");
   },
   afterChange: function afterChange(event, slick, currentSlide, nextSlide) {
-    // $(".preve-slide", this).removeClass("preve-slide　slide-animation");
-    // get previous slide 
     var prevSlide = currentSlide - 1;
 
     if (prevSlide == -1) {
       prevSlide = 3;
-    } // remove class called slide-animation on previous slide after change
-
+    }
 
     slick.$slides[prevSlide].classList.remove('slide-animation');
   }
@@ -175,14 +172,11 @@ var $slide = $(".slide-sp").slick({
     $(".slick-slide", this).eq(nextSlide).addClass("slide-animation");
   },
   afterChange: function afterChange(event, slick, currentSlide, nextSlide) {
-    // $(".preve-slide", this).removeClass("preve-slide　slide-animation");
-    // get previous slide 
     var prevSlide = currentSlide - 1;
 
     if (prevSlide == -1) {
       prevSlide = 3;
-    } // remove class called slide-animation on previous slide after change
-
+    }
 
     slick.$slides[prevSlide].classList.remove('slide-animation');
   }
@@ -191,18 +185,4 @@ $slide.find(".slick-slide").eq(0).addClass("slide-animation"); // ADD OPTGROUP O
 
 $(function () {
   $('select').append('<optgroup label=""></optgroup>');
-}); // JS TO REMOVE YELLOW LOADER ON HEADER WHEN DOCUMENT IS LOADED
-// function onReady(callback) {
-//   var intervalId = window.setInterval(function() {
-//     if (document.getElementsByTagName('body')[0] !== undefined) {
-//       window.clearInterval(intervalId);
-//       callback.call(this);
-//     }
-//   }, 4000);
-// }
-// function setVisible(selector, visible) {
-//   document.querySelector(selector).style.display = visible ? 'block' : 'none';
-// }
-// onReady(function() {
-//   setVisible('#background_loader', false);
-// });
+});
