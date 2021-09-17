@@ -106,7 +106,6 @@ $('.slider').slick({
     dots: false,
     infinite: true,
     arrows: true,
-    autoplay: true,
     speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
