@@ -147,10 +147,12 @@
 			}
 
 			&__img {
-				width: calc(100% - 440px);
+				width: calc(100% - 400px);
+				padding-left: 30px;
 
 				@include is-max(800px) {
-					width: 47%;
+					width: 52%;
+					padding-left: 15px;
 				}
 
 				@include is-max(770px) {
@@ -198,11 +200,15 @@
 
 			&__txt {
 				text-align: center;
-				width: 500px;
-				padding-left: 15px;
+				width: 530px;
+				padding-left: 30px;
 
 				@include is-max(900px) {
 					width: 47%;
+				}
+
+				@include is-max(800px) {
+					padding-left: 15px;
 				}
 
 				@include is-max(770px) {
@@ -283,9 +289,14 @@
 
 			&__img {
 				width: calc(100% - 530px);
+				padding-right: 30px;
 
 				@include is-max(900px) {
-					width: 49%;
+					width: 53%;
+				}
+
+				@include is-max(800px) {
+					padding-right: 15px;
 				}
 
 				@include is-max(770px) {

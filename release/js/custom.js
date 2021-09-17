@@ -69,7 +69,7 @@ $(function () {
 $('.slider').slick({
   dots: false,
   infinite: true,
-  speed: 300,
+  speed: 1000,
   slidesToShow: 3,
   slidesToScroll: 1,
   responsive: [{
@@ -145,8 +145,17 @@ var $slide = $(".slide").slick({
     // $(".slick-slide", this).eq(currentSlide).addClass("preve-slide");
     $(".slick-slide", this).eq(nextSlide).addClass("slide-animation");
   },
-  afterChange: function afterChange() {
-    $(".preve-slide", this).removeClass("preve-slide　slide-animation");
+  afterChange: function afterChange(event, slick, currentSlide, nextSlide) {
+    // $(".preve-slide", this).removeClass("preve-slide　slide-animation");
+    // get previous slide 
+    var prevSlide = currentSlide - 1;
+
+    if (prevSlide == -1) {
+      prevSlide = 3;
+    } // remove class called slide-animation on previous slide after change
+
+
+    slick.$slides[prevSlide].classList.remove('slide-animation');
   }
 });
 $slide.find(".slick-slide").eq(0).addClass("slide-animation"); // BANNER SLIDER SP
@@ -165,8 +174,17 @@ var $slide = $(".slide-sp").slick({
     $(".slick-slide", this).eq(currentSlide).addClass("preve-slide");
     $(".slick-slide", this).eq(nextSlide).addClass("slide-animation");
   },
-  afterChange: function afterChange() {
-    $(".preve-slide", this).removeClass("preve-slide　slide-animation");
+  afterChange: function afterChange(event, slick, currentSlide, nextSlide) {
+    // $(".preve-slide", this).removeClass("preve-slide　slide-animation");
+    // get previous slide 
+    var prevSlide = currentSlide - 1;
+
+    if (prevSlide == -1) {
+      prevSlide = 3;
+    } // remove class called slide-animation on previous slide after change
+
+
+    slick.$slides[prevSlide].classList.remove('slide-animation');
   }
 });
 $slide.find(".slick-slide").eq(0).addClass("slide-animation"); // ADD OPTGROUP ON SELECT
