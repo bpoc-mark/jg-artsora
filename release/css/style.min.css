@@ -1094,7 +1094,7 @@ template{display:none}
 .u-pl-50{padding-left:25px !important}
 .page__top{height:720px}
 .page__top--logo{padding:0;width:70%;position:absolute;left:50%;-webkit-transform:translate(-50%,50%);transform:translate(-50%,50%);top:15%;text-align:center}
-.page__top--logo img{width:45%}
+.page__top--logo img{height:88px;width:160px}
 .page__top .left_scrl{display:none}
 .page__top .ttl_cont__title{font-size:1.625rem;padding-left:15px}
 .page__top .ttl_cont__sub{font-size:1.1875rem}
