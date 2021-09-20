@@ -24,9 +24,11 @@
 
                     <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                         <div class="sched_cont__item">
-                            <?php the_post_thumbnail(); ?>
-                            <p class="desc"><?php echo the_title(); ?></p>
-                            <?php echo the_content(); ?>
+                            <a href="<?php the_permalink(); ?>">
+                                <?php the_post_thumbnail(); ?>
+                                <p class="desc"><?php echo the_title(); ?></p>
+                                <?php echo the_content(); ?>
+                            </a>
                         </div>
                     <?php endwhile; ?>
                 <?php endif; ?>
