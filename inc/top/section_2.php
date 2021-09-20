@@ -57,6 +57,10 @@
                 <div class="right">
                     <img src="<?php echo get_template_directory_uri() . '/release/image/sect_2/img3.png' ?>" alt="">
                 </div>
+                <div class="exhibition_button">
+                    <a href="#sect_5" class="exhibition_link">アート・宙の展示場はこちら</a>
+                </div>
+               
                 </div>
             </div>
 
@@ -105,6 +109,10 @@
                     <img src="<?php echo get_template_directory_uri() . '/release/image/sect_2/img6.png' ?>" alt="">
                     <p class="title">造作家具の製作も得意</p>
                     <p class="text">無垢材を使った造り付けの家具（造作家具）を必ずご提案しています。住まいの雰囲気をトータルに考えた家具の風合いや、収納量・生活動線を計算した収納など、細部にいたるまでご家族のことを思って製作いたします。また、大型の家具を造り付けにすることで、地震による家具の転倒を防げるというメリットも。アート・宙の展示場で造作家具もご覧いただけます。</p>
+                </div>
+
+                <div class="exhibition_button">
+                    <a href="#sect_5" class="exhibition_link">アート・宙の展示場はこちら</a>
                 </div>
             </div>
         </div>
