@@ -15,7 +15,12 @@
           });
 
           $('.zipInput').on('keyup', function() {
-                AjaxZip3.zip2addr('zip_s', '', 'address_s', 'address_s');
+                if($(this).val() !== ''){
+                  AjaxZip3.zip2addr('zip_s', '', 'address_s', 'address_s');
+                } 
+                if($(this).val() === ''){
+                  $('.address_s input').val('')
+                }
             });
         </script>
 
