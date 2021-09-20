@@ -683,8 +683,13 @@ template{display:none}
 .sect_6__wrapper .l-wrap{max-width:900px}
 .sect_6__wrapper .l-wrap .ttl_cont{text-align:center}
 .sect_6__wrapper .l-wrap .ttl_cont .title{font-family:"Yu gothic","cross-platform-yu-gothic","MS PGothic",sans-serif;font-weight:700;font-size:1.5rem}
+<<<<<<< HEAD
 .sect_6__wrapper .l-wrap .ttl_cont .informational_text{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;letter-spacing:.2rem;padding:30px 0;font-size:.875rem;text-align:justify;letter-spacing:2.5px}
 .sect_6__wrapper .l-wrap .ttl_cont .informational_text a{color:#303030}
+=======
+.sect_6__wrapper .l-wrap .ttl_cont .informational_text{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;letter-spacing:.2rem;padding:20px 0;font-size:.875rem;text-align:justify}
+.sect_6__wrapper .l-wrap .ttl_cont .informational_text a{color:#3a86ad;text-decoration:underline}
+>>>>>>> 256854a859fc3dc1536033d63b4cfe3d8358e415
 .sect_6__wrapper .l-wrap .ttl_cont .sub{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;letter-spacing:.2rem;font-size:1.125rem}
 .sect_6__wrapper .l-wrap .form_container{padding:78px 0 0 0}
 .sect_6__wrapper .l-wrap .form_container .wpcf7 form .wpcf7-response-output{margin:2em auto 1em}
