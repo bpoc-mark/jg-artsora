@@ -1155,7 +1155,7 @@ template{display:none}
 .sect_6__wrapper .l-wrap .form_container .form-group-1{margin-bottom:25px}
 .sect_6__wrapper .l-wrap .form_container .form-group-1 .row:nth-of-type(1){width:100%;margin-bottom:15px;padding-top:0}
 .sect_6__wrapper .l-wrap .form_container .form-group-1 .row:nth-of-type(2){width:100%}
-.sect_6__wrapper .l-wrap .form_container .form-group-1 .row:nth-of-type(2) select{background-size:6%}
+.sect_6__wrapper .l-wrap .form_container .form-group-1 .row:nth-of-type(2) select{background-size:6%;font-size:14px}
 .sect_6__wrapper .l-wrap .form_container .form-group-2{margin-top:25px}
 .sect_6__wrapper .l-wrap .form_container .form-group-2 .row:nth-of-type(1){width:100%}
 .sect_6__wrapper .l-wrap .form_container .form-group-2 .row:nth-of-type(2){width:100%}
